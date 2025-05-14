@@ -5,7 +5,7 @@ from datetime import datetime
 
 from pytdbot import Client, types
 
-from src import config
+from lamora import config
 
 logging.basicConfig(
     level=logging.INFO,
