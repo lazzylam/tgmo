@@ -1,6 +1,6 @@
 # MongoDB Backup Bot 📦
 
-A Telegram bot built using [PyTDBot](https://github.com/pytdbot/client) to backup and restore MongoDB databases.
+ʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ [PyTDBot](https://github.com/pytdbot/client) ᴜɴᴛᴜᴋ ᴍᴇɴᴄᴀᴅᴀɴɢᴋᴀɴ ᴅᴀɴ ᴍᴇᴍᴜʟɪʜᴋᴀɴ ᴅᴀᴛᴀʙᴀsᴇ MᴏɴɢᴏDB.
 
 
   <!-- Repo Size -->
@@ -13,11 +13,11 @@ A Telegram bot built using [PyTDBot](https://github.com/pytdbot/client) to backu
     <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python"/>
   </a>
 
-- 🔐 Backup MongoDB databases via `/back <URI>`
-- 💾 Supports `.gz` (default) and `.json` formats
-- 📥 Import backups by replying to a file with `/mongo {import} <URI>`
+- 🔐 Backup MongoDB database via `/back <URI>`
+- 💾 support `.gz` (default) and `.json` formats
+- 📥 mencadangkan database dengan membalas file menggunakan `/back {import} <URI>`
 - 🐳 Docker-ready with pre-installed MongoDB tools
-- ⚡ Fully asynchronous and lightweight
+- ⚡ Full async dan sangat ringan
 
 ## Commands
 
