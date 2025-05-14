@@ -14,7 +14,7 @@ def get_env_int(name: str, default: Optional[int] = None) -> Optional[int]:
         return default
 
 
-API_ID: Optional[int] = get_env_int("API_ID")
+API_ID = int(getenv("API_ID", 28709381))
 API_HASH: Optional[str] = getenv("API_HASH")
 TOKEN: Optional[str] = getenv("TOKEN")
 OWNER_ID: int = get_env_int("OWNER_ID", 6368336706)
