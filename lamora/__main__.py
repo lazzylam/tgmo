@@ -1,4 +1,4 @@
-from src import client
+from lamora import client
 
 def main() -> None:
     client.run()
