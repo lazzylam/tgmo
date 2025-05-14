@@ -7,8 +7,8 @@ from datetime import datetime
 
 from pytdbot import Client, types
 
-from src import __version__, StartTime
-from src.modules.utils import Filter
+from lamora import __version__, StartTime
+from lamora.utils import Filter
 
 
 @Client.on_message(filters=Filter.command(["start", "help"]))
