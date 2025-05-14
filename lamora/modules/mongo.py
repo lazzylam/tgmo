@@ -5,7 +5,7 @@ from typing import Optional, Union
 
 from pytdbot import Client, types
 
-from src.modules.utils import Filter, extract_argument, run_mongodump, run_mongorestore
+from lamora.utils import Filter, extract_argument, run_mongodump, run_mongorestore
 
 
 @Client.on_message(filters=Filter.command("mongo"))
