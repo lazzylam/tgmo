@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-start = "src.__main__:main"
+start = "lamora.__main__:main"
 
 [tool.setuptools]
-packages = ["src"]
+packages = ["lamora"]
