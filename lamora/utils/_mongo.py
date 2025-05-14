@@ -5,7 +5,7 @@ from typing import Union
 
 from pytdbot import types
 
-from src import BACKUP_FOLDER
+from lamora import BACKUP_FOLDER
 
 
 async def run_mongodump(uri: str, format_db: str = "gz") -> Union[str, types.Error]:
