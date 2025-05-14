@@ -4,8 +4,8 @@ A Telegram bot built using [PyTDBot](https://github.com/pytdbot/client) to backu
 
 
   <!-- Repo Size -->
-  <a href="https://github.com/lazzylam/">
-    <img src="https://img.shields.io/github/repo-size/AshokShau/TgMongoBot?style=for-the-badge&color=success" alt="Repo Size"/>
+  <a href="https://github.com/lazzylam/tgmo">
+    <img src="https://img.shields.io/github/repo-size/lazzylam/tgmo?style=for-the-badge&color=success" alt="Repo Size"/>
   </a>
 
   <!-- Language -->
