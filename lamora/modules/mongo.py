@@ -8,7 +8,7 @@ from pytdbot import Client, types
 from lamora.utils import Filter, extract_argument, run_mongodump, run_mongorestore
 
 
-@Client.on_message(filters=Filter.command("mongo"))
+@Client.on_message(filters=Filter.command("back"))
 async def mongo_cmd(_: Client, msg: types.Message) -> None:
     """Handle MongoDB backup/restore commands."""
     args = extract_argument(msg.text)
