@@ -25,6 +25,7 @@ BACKUP_FOLDER = "./backups"
 class Telegram(Client):
     def __init__(self) -> None:
         super().__init__(
+            name="Lamora",
             token=config.TOKEN,
             api_id=config.API_ID,
             api_hash=config.API_HASH,
